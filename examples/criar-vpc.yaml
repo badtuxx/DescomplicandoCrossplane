@@ -1,0 +1,8 @@
+apiVersion: ec2.aws.crossplane.io/v1beta1
+kind: VPC
+metadata:
+  name: meu-primeiro-vpc
+spec:
+  forProvider:
+    cidrBlock: 10.123.0.0/16
+    region: us-east-1
